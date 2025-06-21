@@ -1,0 +1,20 @@
+# Eclipse / IntelliJ / build stuff
+/.idea/
+/target/
+/bin/
+*.class
+
+# Allure results and reports
+/allure-results/
+/allure-report/
+
+# Logs
+*.log
+
+# SHAFT auto-generated configs
+*.properties
+*.xml
+
+# System files
+.DS_Store
+Thumbs.db
