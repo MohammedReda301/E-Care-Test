@@ -52,8 +52,8 @@ public class BaseTest {
 
     // Helper method to perform login
     private void performLogin() {
-        driver.element().type(loginIdField, "01555901654");
-        driver.element().type(passwordField, "12345678Q");
+        driver.element().type(loginIdField, "#######");
+        driver.element().type(passwordField, "#####");
         driver.element().click(loginButton);
         ReportManager.log("Logged in successfully.");
         closePopUpIfPresent();
